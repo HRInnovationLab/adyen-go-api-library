@@ -13,7 +13,7 @@ package checkout
 import (
 	"encoding/json"
 
-	"github.com/adyen/adyen-go-api-library/v5/src/common"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/common"
 )
 
 // PaymentResponse struct for PaymentResponse

@@ -10,7 +10,7 @@ Release is done on GitHub on the `master` branch all development is done on the 
 
 **Step 4**: For patch and minor version releases go to step 6, For major version releases go to step 5
 
-**Step 5**: Find and replace `github.com/adyen/adyen-go-api-library/v<current major version>` with `github.com/adyen/adyen-go-api-library/v<new major version>` through out the project including test files and readme. For example `github.com/adyen/adyen-go-api-library/v5` will become `github.com/adyen/adyen-go-api-library/v6`
+**Step 5**: Find and replace `github.com/adyen/adyen-go-api-library/v<current major version>` with `github.com/adyen/adyen-go-api-library/v<new major version>` through out the project including test files and readme. For example `github.com/HRInnovationLab/adyen-go-api-library/v5` will become `github.com/adyen/adyen-go-api-library/v6`
 
 **Step 6**: create a PR form `develop` to `master` and wait for all tests to pass and for approvals
 

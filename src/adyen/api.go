@@ -10,23 +10,24 @@ import (
 	"fmt"
 	"net/http"
 
-	binlookup "github.com/adyen/adyen-go-api-library/v5/src/binlookup"
-	checkout "github.com/adyen/adyen-go-api-library/v5/src/checkout"
-	common "github.com/adyen/adyen-go-api-library/v5/src/common"
-	disputes "github.com/adyen/adyen-go-api-library/v5/src/disputes"
-	notification "github.com/adyen/adyen-go-api-library/v5/src/notification"
-	payments "github.com/adyen/adyen-go-api-library/v5/src/payments"
-	payouts "github.com/adyen/adyen-go-api-library/v5/src/payouts"
-	platformsaccount "github.com/adyen/adyen-go-api-library/v5/src/platformsaccount"
-	platformsfund "github.com/adyen/adyen-go-api-library/v5/src/platformsfund"
-	platformshostedonboardingpage "github.com/adyen/adyen-go-api-library/v5/src/platformshostedonboardingpage"
-	platformsnotificationconfiguration "github.com/adyen/adyen-go-api-library/v5/src/platformsnotificationconfiguration"
-	recurring "github.com/adyen/adyen-go-api-library/v5/src/recurring"
+	binlookup "github.com/HRInnovationLab/adyen-go-api-library/v5/src/binlookup"
+	checkout "github.com/HRInnovationLab/adyen-go-api-library/v5/src/checkout"
+	common "github.com/HRInnovationLab/adyen-go-api-library/v5/src/common"
+	disputes "github.com/HRInnovationLab/adyen-go-api-library/v5/src/disputes"
+	notification "github.com/HRInnovationLab/adyen-go-api-library/v5/src/notification"
+	payments "github.com/HRInnovationLab/adyen-go-api-library/v5/src/payments"
+	payouts "github.com/HRInnovationLab/adyen-go-api-library/v5/src/payouts"
+	platformsaccount "github.com/HRInnovationLab/adyen-go-api-library/v5/src/platformsaccount"
+	platformsfund "github.com/HRInnovationLab/adyen-go-api-library/v5/src/platformsfund"
+	platformshostedonboardingpage "github.com/HRInnovationLab/adyen-go-api-library/v5/src/platformshostedonboardingpage"
+	platformsnotificationconfiguration "github.com/HRInnovationLab/adyen-go-api-library/v5/src/platformsnotificationconfiguration"
+	recurring "github.com/HRInnovationLab/adyen-go-api-library/v5/src/recurring"
 )
 
 // Constants used for the client API
+var EndpointTest = "https://pal-test.adyen.com"
+
 const (
-	EndpointTest               = "https://pal-test.adyen.com"
 	EndpointLive               = "https://pal-live.adyen.com"
 	EndpointLiveSuffix         = "-pal-live.adyenpayments.com"
 	MarketpayEndpointTest      = "https://cal-test.adyen.com/cal/services"

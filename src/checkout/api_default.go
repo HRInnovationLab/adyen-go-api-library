@@ -14,7 +14,7 @@ import (
 	_context "context"
 	_nethttp "net/http"
 
-	"github.com/adyen/adyen-go-api-library/v5/src/common"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/common"
 )
 
 // Checkout Checkout service

@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/adyen/adyen-go-api-library/v5/src/adyen"
-	"github.com/adyen/adyen-go-api-library/v5/src/common"
-	"github.com/adyen/adyen-go-api-library/v5/src/notification"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/adyen"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/common"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/notification"
 )
 
 func TestNotificationService_HandleNotificationRequest(t *testing.T) {

@@ -9,8 +9,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/adyen/adyen-go-api-library/v5/src/adyen"
-	"github.com/adyen/adyen-go-api-library/v5/src/common"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/adyen"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/common"
 )
 
 func main() {

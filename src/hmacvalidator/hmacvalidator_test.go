@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adyen/adyen-go-api-library/v5/src/notification"
+	"github.com/HRInnovationLab/adyen-go-api-library/v5/src/notification"
 	"github.com/stretchr/testify/assert"
 )
 
